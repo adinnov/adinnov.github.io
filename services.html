@@ -2,58 +2,128 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Services - A.D. Innovations LLC</title>
-  <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Services | AD Innovate</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+
+    header, footer {
+      background: #003366;
+      color: #fff;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+
+    main {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #003366;
+    }
+
+    #capability-statement {
+      background-color: #f4f4f4;
+      padding: 2rem;
+      border-radius: 8px;
+      margin-bottom: 3rem;
+    }
+
+    #capability-statement ul {
+      margin-left: 1.5rem;
+    }
+
+    #services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .service-block {
+      background: #fff;
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .service-block h3 {
+      margin-top: 0;
+      color: #003366;
+    }
+  </style>
 </head>
 <body>
   <header>
-    <nav>
-      <img src="assets/logo.png" alt="A.D. Innovations Logo" class="logo">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="services.html" class="active">Services</a></li>
-        <li><a href="courses.html">Courses</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
+    <h1>Our Services</h1>
   </header>
 
   <main>
-    <section class="services">
-      <h1>Our Services</h1>
+    <section id="capability-statement">
+      <h2>Capability Statement</h2>
+      <p><strong>AD Innovate LLC</strong> is a technology solutions provider specializing in agile software development, digital transformation, and cybersecurity solutions for government and defense clients. We deliver mission-critical systems with a focus on quality, security, and performance.</p>
 
-      <h2>Cybersecurity Training</h2>
-      <p>
-        We provide instructor-led and self-paced training programs designed to develop cybersecurity skills for government agencies,
-        academic institutions, corporations, and individuals. Our courses are developed with industry standards in mind and tailored to
-        your organization's specific needs.
-      </p>
+      <h3>Core Competencies</h3>
+      <ul>
+        <li>Full-stack web and application development</li>
+        <li>Cloud architecture & DevSecOps</li>
+        <li>Cybersecurity compliance (NIST, RMF, FedRAMP)</li>
+        <li>Data analytics and visualization</li>
+        <li>Agile project management (Scrum, SAFe)</li>
+      </ul>
 
-      <h2>Cyber Operations Support</h2>
-      <p>
-        Our experienced professionals support operational cybersecurity efforts for local, city, and federal entities. We help you
-        identify vulnerabilities, implement mitigation strategies, and enhance your overall cyber posture.
-      </p>
+      <h3>Differentiators</h3>
+      <ul>
+        <li>Veteran-owned, security-cleared team</li>
+        <li>Proven delivery in classified and unclassified environments</li>
+        <li>Rapid prototyping and iterative development</li>
+        <li>Small business agility with enterprise-scale capability</li>
+      </ul>
 
-      <h2>Curriculum Development</h2>
-      <p>
-        We create customized cybersecurity courses for educational institutions and corporate training programs. These courses
-        are designed to be accessible, practical, and aligned with both technical standards and user comprehension levels.
-      </p>
+      <h3>Company Information</h3>
+      <ul>
+        <li>CAGE Code: [Your CAGE code]</li>
+        <li>UEI / DUNS: [Your UEI/DUNS number]</li>
+        <li>NAICS Codes: 541511, 541512, 541513, 541519</li>
+        <li>Socioeconomic: [e.g., SDVOSB, 8(a), HUBZone — if applicable]</li>
+      </ul>
+    </section>
 
-      <h2>Consulting for Public & Private Sectors</h2>
-      <p>
-        Whether you're a university, government office, or business, our team consults with you to assess current capabilities,
-        design improvement plans, and deploy robust cybersecurity solutions.
-      </p>
+    <section id="services">
+      <div class="service-block">
+        <h3>Web Development</h3>
+        <p>Responsive, secure, and scalable web applications tailored for mission success.</p>
+      </div>
+      <div class="service-block">
+        <h3>Cloud Solutions</h3>
+        <p>Cloud-native systems and DevSecOps pipelines across AWS, Azure, and DoD GovCloud.</p>
+      </div>
+      <div class="service-block">
+        <h3>Cybersecurity</h3>
+        <p>End-to-end compliance and protection aligned with DoD cybersecurity frameworks.</p>
+      </div>
+      <div class="service-block">
+        <h3>Data Analytics</h3>
+        <p>Actionable insights through data engineering, dashboards, and advanced analytics.</p>
+      </div>
+      <div class="service-block">
+        <h3>Program Management</h3>
+        <p>Experienced in Agile, SAFe, and hybrid methodologies for on-time, on-budget delivery.</p>
+      </div>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2025 A.D. Innovations LLC</p>
+    <p>&copy; 2025 AD Innovate LLC</p>
   </footer>
 </body>
 </html>
